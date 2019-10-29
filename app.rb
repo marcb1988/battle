@@ -1,5 +1,8 @@
-# myapp.rb
 require 'sinatra'
+
+class Battle
+  
+end
 
 get '/' do
   'Hello Battle!'
