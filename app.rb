@@ -1,9 +1,10 @@
 require 'sinatra'
 
-class Battle
-  
-end
+require 'sinatra/base'
 
-get '/' do
-  'Hello Battle!'
+class Battle < Sinatra::Base
+  get '/' do
+    'Testing infrastructure working!'
+  end
+  run! if app_file == $0
 end
