@@ -7,8 +7,4 @@ class Player
     @name = name
     @hp = health
   end
-
-  def attack(target)
-    target.hp -= 10
-  end
 end
